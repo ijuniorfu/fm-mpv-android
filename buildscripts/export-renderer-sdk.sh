@@ -61,7 +61,7 @@ copy_abi() {
 copy_abi armv7l armeabi-v7a
 copy_abi arm64 arm64-v8a
 
-license=buildscripts/deps/libplacebo/LICENSE
+license=buildscripts/prefix/arm64/share/licenses/libplacebo/LICENSE
 [ -f "$license" ] || {
 	echo "libplacebo license is missing: $license" >&2
 	exit 1
